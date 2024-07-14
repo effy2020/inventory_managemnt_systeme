@@ -1,0 +1,40 @@
+.services__item {
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.services__item:hover {
+    transform: scale(1.05);
+}
+
+.services__thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.services__content {
+    padding: 20px;
+}
+
+.services__content .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.services__content .btn {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.services__content .btn:hover {
+    background-color: #000;
+    color: #fff;
+}
